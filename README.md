@@ -2,7 +2,7 @@
 # A financial data scrape project(just for fun)
 ## 一、 本项目利用网络爬虫技术爬取Investing.com网站的相关金融数据。包括两个函数getpairID以及gethistData
 ### 1. getpairID(keyword,source='www')
-  <br>主要用于数据的搜索和匹配，接受两个参数，分别是：keyword和source。<br>
+  主要用于数据的搜索和匹配，接受两个参数，分别是：keyword和source。<br>
   keyword：搜索的关键词，程序会以列表的形式展示所有可能与关键词匹配的项目，用户可以根据返回列表记录自己需要项目的symbol或者name。<br>
   source：对应语言的investing.com 网站，默认为美国。用户可以选取Investing.com网站提供的所有语言版本作为数据来源，例如'cn' 代表中国。<br>
   目前支持以下区域语言的搜索：<br>
