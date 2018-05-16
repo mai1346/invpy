@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+invpy/invpy.py
+invpy.egg-info/PKG-INFO
+invpy.egg-info/SOURCES.txt
+invpy.egg-info/dependency_links.txt
+invpy.egg-info/top_level.txt
