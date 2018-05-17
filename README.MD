@@ -45,10 +45,10 @@
    (30)	za.investing.com
    <br>
 ### 2. gethistData(keyword,start,end,interval = 'Daily',source='www')<br>
-  本函数返回pandas.DataFrame 形式的数据。首先调用getpairID用来匹配关键词，然后根据用户的输入选择返回数据，默认返回匹配的第一项。<br>
-  **start**，**end**为数据起始日期。默认格式为'YYYY/MM/DD'，暂时不接受其他形式。<br>
-  **interval**为数据时间间隔，可选选项为：Daily，Weekly，Monthly。<br>
-  经测试中国的股票数据，investing.com网站提供的数据为**不复权**数据，数据大概从2012或2013年开始。
+&emsp;&emsp;本函数返回pandas.DataFrame 形式的数据。首先调用getpairID用来匹配关键词，然后根据用户的输入选择返回数据，默认返回匹配的第一项。<br>
+&emsp;&emsp;**start**，**end**为数据起始日期。默认格式为'YYYY/MM/DD'，暂时不接受其他形式。<br>
+&emsp;&emsp;**interval**为数据时间间隔，可选选项为：Daily，Weekly，Monthly。<br>
+&emsp;&emsp;经测试中国的股票数据，investing.com网站提供的数据为**不复权**数据，数据大概从2012或2013年开始。
 
 ## 二、免责声明<br>
-  **本项目与Investing.com网站没有任何利益关系，仅供交流学习使用，不保证项目数据的准确性，也不对基于数据做出的任何投资决策负责。数据所有权归Investing.com网站所有，如有侵权，请联系我删除。**
+&emsp;&emsp;**本项目与Investing.com网站没有任何利益关系，仅供交流学习使用，不保证项目数据的准确性，也不对基于数据做出的任何投资决策负责。数据所有权归Investing.com网站所有，如有侵权，请联系我删除。**
