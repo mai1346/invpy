@@ -1,5 +1,7 @@
 # invpy
 ## A financial data scrape project
+## 安装教程：<br>
+&emsp;&emsp;项目基于Python3编写，不支持Python2。可以通过`pip install invpy`来安装。<br>
 ## 一、 功能介绍：<br>
 &emsp;&emsp;本项目利用网络爬虫技术爬取Investing.com网站的相关金融数据。<br>
 &emsp;&emsp;Investing.com 网站提供了种类非常丰富的金融资产数据，包括股票、债券、外汇以及各种商品及衍生品的数据（包括各种加密货币）。使用时可以尝试搜索自己感兴趣的关键词，然后根据返回结果选择正确的选项。<br>
